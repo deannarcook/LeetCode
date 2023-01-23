@@ -52,8 +52,7 @@ class Solution(object):
         roman = ''
 
         # Create dictionary storing integer values and their corresponding roman numeral
-        intRomanDictionary= {1000:'M',900:'CM', 500:'D', 400:'CD', 100:'C', 90:'XC', 50:'L', 40:'XL', 10:'X',
-                             9: 'IX', 5:'V', 4:'IV',  1:'I'}
+        intRomanDictionary= {1000:'M',900:'CM', 500:'D', 400:'CD', 100:'C', 90:'XC', 50:'L', 40:'XL', 10:'X', 9: 'IX', 5:'V', 4:'IV',  1:'I'}
 
         # Iterate through dictionary keys
         for key in intRomanDictionary:
@@ -75,7 +74,7 @@ class Solution(object):
 solution = Solution()
 
 # call intToRoman function
-print(solution.intToRoman(num = 1994))
+print(solution.intToRoman(58))
 
 """
 Below is an alternative solution that utilizes lists instead of a dictionary. The dictionary solution is better 
